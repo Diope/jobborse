@@ -1,0 +1,28 @@
+{
+  "name": "jobborse",
+  "version": "0.1.0",
+  "description": "CI/CD Pipeline practice",
+  "main": "index.js",
+  "scripts": {
+    "test:watch": "jest --watchAll",
+    "start": "nodemon server.js",
+    "lint": "eslint '**/*.js' --fix . && echo 'Lint complete.'"
+  },
+  "author": "Dion Pettaway",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "3.28.0",
+    "nodemon": "2.0.15"
+  },
+  "devDependencies": {
+    "@types/jest": "27.4.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "4.0.0",
+    "jest": "27.5.1",
+    "pino-pretty": "7.6.1",
+    "tap": "16.0.1"
+  }
+}
