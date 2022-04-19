@@ -1,5 +1,5 @@
 const PORT = process.env.PORT || 5000;
-const server = require('./src/index.js')({
+const server = require('./src/index')({
   logger: {
     level: 'info',
     prettyPrint: true
